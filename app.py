@@ -64,4 +64,4 @@ def del_president(id):
         return jsonify(response)
 
 # Start do server
-app.run(port=5000, host='localhost', debug=True)
+app.run(port=5000, host='localhost', debug=False)
